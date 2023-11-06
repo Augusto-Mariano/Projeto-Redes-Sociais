@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+   width: 0px;
+   height: 0px;
+}
+
+html,
+body {
+   height: 100vh;
+   width: 100vw;
+   background-color: #000;
+}
+
+body {
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Cellipse fill='none' stroke-width='13.4' stroke-opacity='0.54' id='a' rx='600' ry='450'/%3E%3C/defs%3E%3Cg style='transform-origin:center'%3E%3Cg transform='rotate(81 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-160 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%230D708C' href='%23a' transform='rotate(-60 0 0) scale(0.4)'/%3E%3Cuse stroke='%23007093' href='%23a' transform='rotate(-50 0 0) scale(0.5)'/%3E%3Cuse stroke='%2300709a' href='%23a' transform='rotate(-40 0 0) scale(0.6)'/%3E%3Cuse stroke='%23006fa1' href='%23a' transform='rotate(-30 0 0) scale(0.7)'/%3E%3Cuse stroke='%23006ea9' href='%23a' transform='rotate(-20 0 0) scale(0.8)'/%3E%3Cuse stroke='%23006eb1' href='%23a' transform='rotate(-10 0 0) scale(0.9)'/%3E%3Cuse stroke='%23006db8' href='%23a' transform=''/%3E%3Cuse stroke='%23006cc0' href='%23a' transform='rotate(10 0 0) scale(1.1)'/%3E%3Cuse stroke='%23006ac8' href='%23a' transform='rotate(20 0 0) scale(1.2)'/%3E%3Cuse stroke='%230069cf' href='%23a' transform='rotate(30 0 0) scale(1.3)'/%3E%3Cuse stroke='%230067d6' href='%23a' transform='rotate(40 0 0) scale(1.4)'/%3E%3Cuse stroke='%230065dd' href='%23a' transform='rotate(50 0 0) scale(1.5)'/%3E%3Cuse stroke='%230063e4' href='%23a' transform='rotate(60 0 0) scale(1.6)'/%3E%3Cuse stroke='%230060ea' href='%23a' transform='rotate(70 0 0) scale(1.7)'/%3E%3Cuse stroke='%23005def' href='%23a' transform='rotate(80 0 0) scale(1.8)'/%3E%3Cuse stroke='%230059f4' href='%23a' transform='rotate(90 0 0) scale(1.9)'/%3E%3Cuse stroke='%230055f8' href='%23a' transform='rotate(100 0 0) scale(2)'/%3E%3Cuse stroke='%230050fc' href='%23a' transform='rotate(110 0 0) scale(2.1)'/%3E%3Cuse stroke='%23004afe' href='%23a' transform='rotate(120 0 0) scale(2.2)'/%3E%3Cuse stroke='%230043ff' href='%23a' transform='rotate(130 0 0) scale(2.3)'/%3E%3Cuse stroke='%23003aff' href='%23a' transform='rotate(140 0 0) scale(2.4)'/%3E%3Cuse stroke='%23002eff' href='%23a' transform='rotate(150 0 0) scale(2.5)'/%3E%3Cuse stroke='%23221AFF' href='%23a' transform='rotate(160 0 0) scale(2.6)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: 10px left;
+}
+
+main {
+   height: 100vh;
+   position: relative;
+}
+
+#fone {
+   height: 627px;
+   width: 311px;
+   background-image: url(../img/frame-iphone.png);
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+section#redes-sociais img {
+   width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-shadow: 10px 10px 10px black;
+}
+
+section#redes-sociais {
+   text-align: right;
+   padding: 10px;
+}
+
+section#redes-sociais img:hover {
+   border: 1px solid white;
+   transform: translate(-3px, -3px);
+   box-shadow: 5px 5px 5px black;
+   transition: .5s;
+}
+
+#tela {
+   position: relative;
+   top: 80px;
+   left: 22px;
+   width: 269px;
+   height: 471px;
+}
